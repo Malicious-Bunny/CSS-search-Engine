@@ -114,22 +114,7 @@ hr{
 #result12:before{
     content: "Thomas";
 }
-input[value="" i] ~ #results #result1
-input[value="" i] ~ #results #result2,
-input[value="" i] ~ #results #result3,
-input[value="" i] ~ #results #result4,
-input[value="" i] ~ #results #result5,
-input[value="" i] ~ #results #result6,
-input[value="" i] ~ #results #result7,
-input[value="" i] ~ #results #result8,
-input[value="" i] ~ #results #result9,
-input[value="" i] ~ #results #result10,
-input[value="" i] ~ #results #result11,
-input[value="" i] ~ #results #result12
 
-{
-    display: block;
- }
 input[value="James" i] ~ #results #result2{
    display: block;
 }

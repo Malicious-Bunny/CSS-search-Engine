@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans Devanagari', sans-serif;
+    background-color: #363636  ;
+    color: #fff;
+}
+input{
+    width: 40%;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 15px;
+    font-size: large;
+    border: 4px solid rgb(255, 255, 255); 
+    font-weight:bold;
+    border-spacing: 2px;
+    display: inline;
+    position: absolute;
+    left: 6%;
+    top: 40%;
+}
+input:hover{
+    transform: scale(1.0002);
+}
+h4{
+    padding-top: 18px;
+    background-color: #232931;
+    padding-left:48%;
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+    flex: 1;
+    padding-bottom: 10px;
+}
+.foot{
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 1px;
+    width: 100%;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+svg{
+    background-color: inherit;
+}
+svg:hover{
+    transform: scale(1.3);
+}
+span{
+    margin-right: 5px;
+    color: black;
+}
+.start{
+    margin-left: 27%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    margin-top: 14px;
+    font-size: 1.1rem;
+    
+}
+hr{
+    margin-bottom: 30px;
+}
+#results{
+    padding-left: 53%;
+    padding-right: 40%;
+    min-height: 500px;
+    min-height: 40%;
+
+}
+#results>div{
+    display: none;
+}
+#result1:before{
+  content: "Peter";
+}
+#result2:before{
+    content: "James";
+  }
+#result3:before{
+    content: "John";
+}
+#result4:before{
+    content: "Thadeus";
+}
+#result5:before{
+    content: "James, the lesser";
+}
+#result6:before{
+    content: "Judas";
+}
+#result7:before{
+    content: "Bartholomew";
+}
+#result8:before{
+   content: "Jude";
+}
+#result9:before{
+    content: "Mathew";
+}
+#result10:before{
+    content: "Philip";
+}
+#result11:before{
+    content: "Simon";
+}
+#result12:before{
+    content: "Thomas";
+}
+input[value="" i] ~ #results #result1
+input[value="" i] ~ #results #result2,
+input[value="" i] ~ #results #result3,
+input[value="" i] ~ #results #result4,
+input[value="" i] ~ #results #result5,
+input[value="" i] ~ #results #result6,
+input[value="" i] ~ #results #result7,
+input[value="" i] ~ #results #result8,
+input[value="" i] ~ #results #result9,
+input[value="" i] ~ #results #result10,
+input[value="" i] ~ #results #result11,
+input[value="" i] ~ #results #result12
+
+{
+    display: block;
+ }
+input[value="James" i] ~ #results #result2{
+   display: block;
+}
+input[value="Peter" i] ~ #results #result1{
+    display: block;
+ }
+ input[value="Pete" i] ~ #results #result1{
+    display: block;
+ }
+ input[value="Pet" i] ~ #results #result1{
+    display: block;
+ }
+ input[value="Pe" i] ~ #results #result1{
+    display: block;
+ }
+ input[value="P" i] ~ #results #result1{
+    display: block;
+ }
+ input[value="Jame" i] ~ #results #result2{
+   display: block;
+}
+input[value="Jam" i] ~ #results #result2{
+   display: block;
+}
+input[value="Ja" i] ~ #results #result2{
+   display: block;
+}
+input[value="J" i] ~ #results #result2{
+   display: block;
+}
+input[value="John" i] ~ #results #result3{
+    display: block;
+ }
+ input[value="Joh" i] ~ #results #result3{
+    display: block;
+ }
+ input[value="Jo" i] ~ #results #result3{
+    display: block;
+ }
+ input[value="J" i] ~ #results #result3{
+    display: block;
+ }
+ input[value="Bartholomew" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="Bartholome" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="Bartholom" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="Bartholo" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="Barthol" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="Bartho" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="Barth" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="Bart" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="Bar" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="Ba" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="B" i] ~ #results #result7{
+    display: block;
+ }
+ input[value="Thadeus" i] ~ #results #result4{
+    display: block;
+ }
+ input[value="Thadeu" i] ~ #results #result4{
+    display: block;
+ }
+ input[value="Thade" i] ~ #results #result4{
+    display: block;
+ }
+ input[value="Thad" i] ~ #results #result4{
+    display: block;
+ }
+ input[value="Tha" i] ~ #results #result4{
+    display: block;
+ }
+ input[value="Th" i] ~ #results #result4{
+    display: block;
+ }
+ input[value="T" i] ~ #results #result4{
+    display: block;
+ }
+ input[value="Jame" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="Jam" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="Ja" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="J" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, " i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James," i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, t" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, th" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, the" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, the " i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, the l" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, the le" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, the les" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, the less" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, the lesse" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="James, the lesser" i] ~ #results #result5{
+    display: block;
+ }
+ input[value="Judas" i] ~ #results #result6{
+    display: block;
+ }
+ input[value="Juda" i] ~ #results #result6{
+    display: block;
+ }
+ input[value="Jud" i] ~ #results #result6{
+    display: block;
+ }
+ input[value="Ju" i] ~ #results #result6{
+    display: block;
+ }
+ input[value="J" i] ~ #results #result6{
+    display: block;
+ }
+ input[value="Jude" i] ~ #results #result8{
+    display: block;
+ }
+ input[value="Jud" i] ~ #results #result8{
+    display: block;
+ }
+ input[value="Ju" i] ~ #results #result8{
+    display: block;
+ }
+ input[value="J" i] ~ #results #result8{
+    display: block;
+ }
+ input[value="Matthew" i] ~ #results #result9{
+    display: block;
+ }
+ input[value="Matthe" i] ~ #results #result9{
+    display: block;
+ }
+ input[value="Matth" i] ~ #results #result9{
+    display: block;
+ }
+ input[value="Matt" i] ~ #results #result9{
+    display: block;
+ }
+ input[value="Mat" i] ~ #results #result9{
+    display: block;
+ }
+ input[value="Ma" i] ~ #results #result9{
+    display: block;
+ }
+ input[value="M" i] ~ #results #result9{
+    display: block;
+ }
+ input[value="Phillip" i] ~ #results #result10{
+    display: block;
+ }
+ input[value="Philli" i] ~ #results #result10{
+    display: block;
+ }
+ input[value="Phill" i] ~ #results #result10{
+    display: block;
+ }
+ input[value="Phil" i] ~ #results #result10{
+    display: block;
+ }
+ input[value="Phi" i] ~ #results #result10{
+    display: block;
+ }
+ input[value="Ph" i] ~ #results #result10{
+    display: block;
+ }
+ input[value="P" i] ~ #results #result10{
+    display: block;
+ }
+ input[value="Simon" i] ~ #results #result11{
+    display: block;
+ }
+ input[value="Simo" i] ~ #results #result11{
+    display: block;
+ }
+ input[value="Sim" i] ~ #results #result11{
+    display: block;
+ }
+ input[value="Si" i] ~ #results #result11{
+    display: block;
+ }
+ input[value="S" i] ~ #results #result11{
+    display: block;
+ }
+ input[value="Thomas" i] ~ #results #result12{
+    display: block;
+ }
+ input[value="Thoma" i] ~ #results #result12{
+    display: block;
+ }
+ input[value="Thom" i] ~ #results #result12{
+    display: block;
+ }
+ input[value="Tho" i] ~ #results #result12{
+    display: block;
+ }
+ input[value="Th" i] ~ #results #result12{
+    display: block;
+ }
+ input[value="T" i] ~ #results #result12{
+    display: block;
+ }
+ 
+ 

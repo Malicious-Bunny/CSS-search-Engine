@@ -1,8 +1,0 @@
-using 'i' in CSS attribute selectors, indicates that it should be case insensitive
-
-The value attribute in form elements, is used to set or get the initial value of the form
-
-<input type="text" value="hello"></input>
-you can set or get it's value, using JS
-
-~ selectors apply only to sibling elements that come after the said element
